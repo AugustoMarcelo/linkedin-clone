@@ -1,6 +1,8 @@
 <h1 align="center">
   Interface cloned from the <a href="https://www.youtube.com/watch?v=-ZV-_7vNRGw&t=2904s">video</a> posted by Rocketseat on YouTube.
-</h2>
+</h1>
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d7ea2e3a-0567-42e1-bf25-6eb55f7e2824/deploy-status)](https://app.netlify.com/sites/clone-linkedin/deploys)
 
 ---
 
