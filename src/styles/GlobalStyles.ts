@@ -6,14 +6,31 @@ export default createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
   }
+
   html, body, #root {
     height: 100%;
     width: 100%;
     background: var(--color-background);
   }
+
   *, button, input {
     font-family: -apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Fira Sans,Ubuntu,Oxygen,Oxygen Sans,Cantarell,Droid Sans,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Lucida Grande,Helvetica,Arial,sans-serif;
   }
+
+  body::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  body::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+    border-radius: 10px;
+  }
+
   :root {
     --color-header: #283e4a;
     --color-linkedin: #0077b5;
